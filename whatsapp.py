@@ -53,10 +53,10 @@ class WhatsApp:
         chrome_options = Options()
         if session:
             chrome_options.add_argument("--user-data-dir={}".format(session))
-            self.browser = webdriver.Chrome("chromedriver.exe")  # we are using chrome as our webbrowser
+            self.browser = webdriver.Chrome("chromedriver.exe",options=chrome_options)  # we are using chrome as our webbrowser
             #,options=chrome_options
         else:
-            self.browser = webdriver.Chrome("chromedriver.exe")
+            self.browser = webdriver.Chrome("chromedriver.exe",options=chrome_options)
         self.browser.get("https://web.whatsapp.com/")
         # emoji.json is a json file which contains all the emojis
         self.browser.maximize_window()
