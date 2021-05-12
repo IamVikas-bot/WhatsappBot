@@ -5,7 +5,7 @@
 
 ## Installation 
 
-1. First download the whole project
+1. Download the project
 2. Open the requirement.txt file to download all the dependency
 3. ChromeDriver is already present but that might vary according to your chrome version
 
