@@ -5,7 +5,6 @@
 # Note: The author gives permission to use it under Apache 2.0
 # Special Thanks To: alecxe, For reviewing my code!
 # ============================================================
-import xlsxwriter
 import time
 import datetime as dt
 import json
